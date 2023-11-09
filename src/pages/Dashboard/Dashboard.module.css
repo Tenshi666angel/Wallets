@@ -1,0 +1,27 @@
+.cards {
+    margin-top: 10px;
+    display: flex;
+    max-width: 40vw;
+}
+
+.control {
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+}
+
+.control button {
+    margin-right: 5px;
+}
+
+.modal {
+    width: 600px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    border: 1px solid teal;
+    text-align: center;
+    font-family: sans-serif;
+}

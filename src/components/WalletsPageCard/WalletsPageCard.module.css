@@ -1,0 +1,47 @@
+.card {
+    width: 30vw;
+    height: 90px;
+    border-radius: 20px;
+    margin-top: 5px;
+    display: flex;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.control button {
+    border: none;
+    background: transparent;
+}
+
+.control svg {
+    fill: whitesmoke;
+}
+
+.control {
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.icon {
+    margin-left: 6px;
+}
+
+.verbName {
+    padding: 0px;
+    margin-left: 5px;
+}
+
+.name {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.description {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.balanse {
+    
+}

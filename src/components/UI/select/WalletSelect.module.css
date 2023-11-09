@@ -1,0 +1,31 @@
+.singleValue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.singleIcon {
+    position: relative;
+    bottom: 6px;
+}
+
+.singleLabel {
+    position: relative;
+    bottom: 9px;
+}
+
+.optionContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.optionIcon {
+    margin-left: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.optionLabel {
+    position: relative;
+    top: 3px;
+}

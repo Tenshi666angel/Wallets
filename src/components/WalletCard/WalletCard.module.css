@@ -1,0 +1,91 @@
+.cashCard {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(79, 115, 235);
+    min-width: 220px;
+    height: 80px;
+    border: 1px solid rgb(73, 195, 252);
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.cashCard svg {
+    fill: ghostwhite;
+}
+
+.debetCard {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(190, 52, 117);
+    min-width: 220px;
+    height: 80px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.debetCard svg {
+    fill: ghostwhite;
+    stroke: ghostwhite;
+}
+
+.creditCard {
+    display: flex;
+    padding: 10px;
+    background-color: orangered;
+    min-width: 220px;
+    height: 80px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.creditCard svg {
+    fill: ghostwhite;
+}
+
+.balanse b {
+    position: relative;
+    margin-left: 5px;
+    bottom: 35px;
+    color: ghostwhite;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.balanse h4 {
+    color: ghostwhite;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: relative;
+    margin-top: 7px;
+}
+
+.description {
+    position: relative;
+    left: 5px;
+    bottom: 30px;
+    margin: 0px;
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.moneyIcon {
+    fill: ghostwhite;
+    stroke: ghostwhite;
+}
+
+.modal {
+    width: 600px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    border: 1px solid teal;
+    text-align: center;
+    font-family: sans-serif;
+}

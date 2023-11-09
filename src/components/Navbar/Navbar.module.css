@@ -1,0 +1,44 @@
+.header {
+    background-color: black;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.navItem {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.navItem:hover {
+    color: grey;
+}
+
+.activeNavItem {
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.logo {
+    fill: ghostwhite;
+    stroke: ghostwhite;
+    margin-left: 15px;
+}
+
+.logo:hover {
+    fill: grey;
+    stroke: grey;
+}
+
+.addEntry {
+    margin-left: auto;
+    margin-right: 15px;
+}

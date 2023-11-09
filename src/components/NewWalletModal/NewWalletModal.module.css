@@ -1,0 +1,67 @@
+.modal {
+    width: 25vw;
+    height: 52vh;
+    border: 1px solid cyan;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    margin: 0% auto;
+    margin-top: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+}
+
+.selectType {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title {
+    margin-bottom: 3px;
+}
+
+.form p {
+    font-family: sans-serif;
+    font-size: 15px;
+    align-self: self-start;
+    margin-bottom: 5px;
+}
+
+.singleValue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.singleIcon {
+    position: relative;
+    bottom: 6px;
+}
+
+.singleLabel {
+    position: relative;
+    bottom: 9px;
+}
+
+.optionContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.optionIcon {
+    margin-left: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.optionLabel {
+    position: relative;
+    top: 3px;
+}
